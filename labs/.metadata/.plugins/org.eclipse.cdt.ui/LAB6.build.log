@@ -1,0 +1,246 @@
+06:25:29 **** Build of configuration Debug for project LAB6 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103vetx.d" -MT"Core/Startup/startup_stm32f103vetx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103vetx.o" "../Core/Startup/startup_stm32f103vetx.s"
+arm-none-eabi-gcc "../Core/Src/HSMC5883L.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/HSMC5883L.d" -MT"Core/Src/HSMC5883L.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HSMC5883L.o"
+arm-none-eabi-gcc "../Core/Src/fsmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsmc.d" -MT"Core/Src/fsmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsmc.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/lcd.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+In file included from ../Core/Src/HSMC5883L.c:1:
+../Core/Inc/HSMC5883L.h:19: warning: "HAL_MAX_DELAY" redefined
+   19 | #define HAL_MAX_DELAY               100
+      | 
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:29,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/HSMC5883L.h:1,
+                 from ../Core/Src/HSMC5883L.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:57: note: this is the location of the previous definition
+   57 | #define HAL_MAX_DELAY      0xFFFFFFFFU
+      | 
+In file included from ../Core/Src/HSMC5883L.c:1:
+../Core/Inc/HSMC5883L.h:23:20: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   23 | void HMC5883L_Init(I2C_HandleTypeDef *hi2c);
+      |                    ^~~~~~~~~~~~~~~~~
+      |                    DMA_HandleTypeDef
+../Core/Inc/HSMC5883L.h:25:20: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   25 | void HMC5883L_Read(I2C_HandleTypeDef *hi2c, int16_t* magData);
+      |                    ^~~~~~~~~~~~~~~~~
+      |                    DMA_HandleTypeDef
+../Core/Src/HSMC5883L.c:3:20: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+    3 | void HMC5883L_Init(I2C_HandleTypeDef *hi2c)
+      |                    ^~~~~~~~~~~~~~~~~
+      |                    DMA_HandleTypeDef
+../Core/Src/HSMC5883L.c:13:20: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   13 | void HMC5883L_Read(I2C_HandleTypeDef *hi2c, int16_t* magData)
+      |                    ^~~~~~~~~~~~~~~~~
+      |                    DMA_HandleTypeDef
+make: *** [Core/Src/subdir.mk:49: Core/Src/HSMC5883L.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/lcd.c: In function 'LCD_DrawEllipse':
+../Core/Src/lcd.c:461:24: warning: implicit declaration of function 'cos' [-Wimplicit-function-declaration]
+  461 |         x = usC + SR * cos(angle);
+      |                        ^~~
+../Core/Src/lcd.c:461:24: warning: incompatible implicit declaration of built-in function 'cos'
+../Core/Src/lcd.c:3:1: note: include '<math.h>' or provide a declaration of 'cos'
+    2 | #include "ascii.h"
+  +++ |+#include <math.h>
+    3 | 
+../Core/Src/lcd.c:462:24: warning: implicit declaration of function 'sin' [-Wimplicit-function-declaration]
+  462 |         y = usP + LR * sin(angle);
+      |                        ^~~
+../Core/Src/lcd.c:462:24: warning: incompatible implicit declaration of built-in function 'sin'
+../Core/Src/lcd.c:462:24: note: include '<math.h>' or provide a declaration of 'sin'
+In file included from ../Core/Src/i2c.c:21:
+../Core/Inc/i2c.h:35:8: error: unknown type name 'I2C_HandleTypeDef'
+   35 | extern I2C_HandleTypeDef hi2c2;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:44:2: error: unknown type name 'ADC_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   44 |  ADC_HandleTypeDef hadc1;
+      |  ^~~~~~~~~~~~~~~~~
+      |  DMA_HandleTypeDef
+../Core/Src/i2c.c:27:1: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   27 | I2C_HandleTypeDef hi2c2;
+      | ^~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/i2c.c: In function 'MX_I2C2_Init':
+../Core/Src/i2c.c:40:8: error: request for member 'Instance' in something not a structure or union
+   40 |   hi2c2.Instance = I2C2;
+      |        ^
+../Core/Src/i2c.c:41:8: error: request for member 'Init' in something not a structure or union
+   41 |   hi2c2.Init.ClockSpeed = 100000;
+      |        ^
+../Core/Src/i2c.c:42:8: error: request for member 'Init' in something not a structure or union
+   42 |   hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+      |        ^
+../Core/Src/i2c.c:42:26: error: 'I2C_DUTYCYCLE_2' undeclared (first use in this function)
+   42 |   hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+      |                          ^~~~~~~~~~~~~~~
+../Core/Src/i2c.c:42:26: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/i2c.c:43:8: error: request for member 'Init' in something not a structure or union
+   43 |   hi2c2.Init.OwnAddress1 = 0;
+      |        ^
+../Core/Src/i2c.c:44:8: error: request for member 'Init' in something not a structure or union
+   44 |   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |        ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:3: warning: implicit declaration of function 'HAL_ADCEx_Calibration_Start' [-Wimplicit-function-declaration]
+   98 |   HAL_ADCEx_Calibration_Start(&hadc1);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:110:4: warning: implicit declaration of function 'HAL_ADC_Start'; did you mean 'HAL_DMA_Start'? [-Wimplicit-function-declaration]
+  110 |    HAL_ADC_Start(&hadc1);
+      |    ^~~~~~~~~~~~~
+      |    HAL_DMA_Start
+../Core/Src/i2c.c:44:31: error: 'I2C_ADDRESSINGMODE_7BIT' undeclared (first use in this function)
+   44 |   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/i2c.c:45:8: error: request for member 'Init' in something not a structure or union
+   45 |   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+      |        ^
+../Core/Src/i2c.c:45:32: error: 'I2C_DUALADDRESS_DISABLE' undeclared (first use in this function); did you mean 'I2C_DUALADDRESS_DISABLED'?
+   45 |   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_DUALADDRESS_DISABLED
+../Core/Src/i2c.c:46:8: error: request for member 'Init' in something not a structure or union
+   46 |   hi2c2.Init.OwnAddress2 = 0;
+      |        ^
+../Core/Src/i2c.c:47:8: error: request for member 'Init' in something not a structure or union
+   47 |   hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+      |        ^
+../Core/Src/main.c:111:4: warning: implicit declaration of function 'HAL_ADC_PollForConversion' [-Wimplicit-function-declaration]
+  111 |    HAL_ADC_PollForConversion(&hadc1, 1000);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/i2c.c:47:32: error: 'I2C_GENERALCALL_DISABLE' undeclared (first use in this function); did you mean 'I2C_GENERALCALL_DISABLED'?
+   47 |   hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_GENERALCALL_DISABLED
+../Core/Src/i2c.c:48:8: error: request for member 'Init' in something not a structure or union
+   48 |   hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+      |        ^
+../Core/Src/i2c.c:48:30: error: 'I2C_NOSTRETCH_DISABLE' undeclared (first use in this function); did you mean 'I2C_NOSTRETCH_DISABLED'?
+   48 |   hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              I2C_NOSTRETCH_DISABLED
+../Core/Src/main.c:112:26: warning: implicit declaration of function 'HAL_ADC_GetValue' [-Wimplicit-function-declaration]
+  112 |    unsigned int value =  HAL_ADC_GetValue(&hadc1);
+      |                          ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:113:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  113 |    sprintf(data,"%d", value);
+      |    ^~~~~~~
+../Core/Src/main.c:113:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   25 | #include "lcd.h"
+  +++ |+#include <stdio.h>
+   26 | 
+../Core/Src/main.c:114:25: warning: passing argument 3 of 'LCD_DrawChar' makes integer from pointer without a cast [-Wint-conversion]
+  114 |    LCD_DrawChar(40, 20, data);
+      |                         ^~~~
+      |                         |
+      |                         char *
+In file included from ../Core/Src/main.c:25:
+../Core/Inc/lcd.h:65:72: note: expected 'char' but argument is of type 'char *'
+   65 | void            LCD_DrawChar  ( uint16_t usC, uint16_t usP, const char cChar);
+      |                                                             ~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'MX_ADC1_Init':
+../Core/Src/main.c:177:3: error: unknown type name 'ADC_ChannelConfTypeDef'; did you mean 'DMA_Channel_TypeDef'?
+  177 |   ADC_ChannelConfTypeDef sConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   DMA_Channel_TypeDef
+../Core/Src/main.c:185:8: error: request for member 'Instance' in something not a structure or union
+  185 |   hadc1.Instance = ADC1;
+      |        ^
+../Core/Src/main.c:186:8: error: request for member 'Init' in something not a structure or union
+  186 |   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+      |        ^
+../Core/Src/main.c:186:29: error: 'ADC_SCAN_DISABLE' undeclared (first use in this function)
+  186 |   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+      |                             ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:186:29: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:187:8: error: request for member 'Init' in something not a structure or union
+  187 |   hadc1.Init.ContinuousConvMode = DISABLE;
+      |        ^
+../Core/Src/main.c:188:8: error: request for member 'Init' in something not a structure or union
+  188 |   hadc1.Init.DiscontinuousConvMode = DISABLE;
+      |        ^
+../Core/Src/main.c:189:8: error: request for member 'Init' in something not a structure or union
+  189 |   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+      |        ^
+../Core/Src/i2c.c:49:7: warning: implicit declaration of function 'HAL_I2C_Init'; did you mean 'HAL_DMA_Init'? [-Wimplicit-function-declaration]
+   49 |   if (HAL_I2C_Init(&hi2c2) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_DMA_Init
+../Core/Src/main.c:189:33: error: 'ADC_SOFTWARE_START' undeclared (first use in this function)
+  189 |   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+      |                                 ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:190:8: error: request for member 'Init' in something not a structure or union
+  190 |   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+      |        ^
+../Core/Src/main.c:190:26: error: 'ADC_DATAALIGN_RIGHT' undeclared (first use in this function)
+  190 |   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+      |                          ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:191:8: error: request for member 'Init' in something not a structure or union
+  191 |   hadc1.Init.NbrOfConversion = 1;
+      |        ^
+../Core/Src/i2c.c: At top level:
+../Core/Src/i2c.c:59:22: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   59 | void HAL_I2C_MspInit(I2C_HandleTypeDef* i2cHandle)
+      |                      ^~~~~~~~~~~~~~~~~
+      |                      DMA_HandleTypeDef
+../Core/Src/main.c:192:7: warning: implicit declaration of function 'HAL_ADC_Init'; did you mean 'HAL_DeInit'? [-Wimplicit-function-declaration]
+  192 |   if (HAL_ADC_Init(&hadc1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_DeInit
+../Core/Src/main.c:199:10: error: request for member 'Channel' in something not a structure or union
+  199 |   sConfig.Channel = ADC_CHANNEL_14;
+      |          ^
+../Core/Src/i2c.c:87:24: error: unknown type name 'I2C_HandleTypeDef'; did you mean 'DMA_HandleTypeDef'?
+   87 | void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
+      |                        ^~~~~~~~~~~~~~~~~
+      |                        DMA_HandleTypeDef
+../Core/Src/main.c:199:21: error: 'ADC_CHANNEL_14' undeclared (first use in this function); did you mean 'DAC1_CHANNEL_1'?
+  199 |   sConfig.Channel = ADC_CHANNEL_14;
+      |                     ^~~~~~~~~~~~~~
+      |                     DAC1_CHANNEL_1
+../Core/Src/main.c:200:10: error: request for member 'Rank' in something not a structure or union
+  200 |   sConfig.Rank = ADC_REGULAR_RANK_1;
+      |          ^
+../Core/Src/main.c:200:18: error: 'ADC_REGULAR_RANK_1' undeclared (first use in this function)
+  200 |   sConfig.Rank = ADC_REGULAR_RANK_1;
+      |                  ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:10: error: request for member 'SamplingTime' in something not a structure or union
+  201 |   sConfig.SamplingTime = ADC_SAMPLETIME_55CYCLES_5;
+      |          ^
+../Core/Src/main.c:201:26: error: 'ADC_SAMPLETIME_55CYCLES_5' undeclared (first use in this function); did you mean 'ADC_SAMPLETIME_2CYCLE_5'?
+  201 |   sConfig.SamplingTime = ADC_SAMPLETIME_55CYCLES_5;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                          ADC_SAMPLETIME_2CYCLE_5
+make: *** [Core/Src/subdir.mk:49: Core/Src/i2c.o] Error 1
+../Core/Src/main.c:202:7: warning: implicit declaration of function 'HAL_ADC_ConfigChannel' [-Wimplicit-function-declaration]
+  202 |   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:49: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+06:25:32 Build Failed. 44 errors, 15 warnings. (took 2s.580ms)
+

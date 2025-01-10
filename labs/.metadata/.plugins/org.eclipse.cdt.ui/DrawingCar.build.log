@@ -1,0 +1,21 @@
+19:32:21 **** Incremental Build of configuration Debug for project DrawingCar ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:11: warning: unused variable 'RightOutput' [-Wunused-variable]
+  128 |     float RightOutput = PIDController_compute(&RightPID, RightRPM, dt);
+      |           ^~~~~~~~~~~
+arm-none-eabi-gcc -o "DrawingCar.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\STMicroelectronics\labs\DrawingCar\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DrawingCar.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DrawingCar.elf
+ 
+arm-none-eabi-size   DrawingCar.elf 
+arm-none-eabi-objdump -h -S  DrawingCar.elf  > "DrawingCar.list"
+   text	   data	    bss	    dec	    hex	filename
+  18120	    120	   1944	  20184	   4ed8	DrawingCar.elf
+Finished building: default.size.stdout
+ 
+Finished building: DrawingCar.list
+ 
+
+19:32:23 Build Finished. 0 errors, 1 warnings. (took 1s.126ms)
+
